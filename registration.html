@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/registration.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>      
+ <!-- <script type="text/javascript">
+
+            $('.btn-enregistrer').click(function () {
+                $('.connexion').addClass('remove-section');
+                $('.enregistrer').removeClass('active-section');
+                $('.btn-enregistrer').removeClass('active');
+                $('.btn-connexion').addClass('active');
+            });
+
+            $('.btn-connexion').click(function () {
+                $('.connexion').removeClass('remove-section');
+                $('.enregistrer').addClass('active-section');
+                $('.btn-enregistrer').addClass('active');
+                $('.btn-connexion').removeClass('active');
+            });
+
+        </script> -->
+</head>
+    <body>
+    <h1>Registration Form</h1>
+   
+
+    <div class="content">
+        <div class="container">
+            <img class="bg-img" src="loginImage.jpg"
+                alt="dgf">
+            <div class="menu">
+                <a href="#connexion" class="btn-connexion">
+                    <h2>SIGN UP</h2>
+                </a>
+            </div>
+            <div class="connexion">
+                <div class="contact-form">
+                    <label>FIRST NAME</label>
+                    <input placeholder="" type="text">
+
+                    <label>LAST NAME</label>
+                    <input placeholder="" type="text">
+
+                    <label>EMAIL</label>
+                    <input placeholder="" type="text">
+
+                    <label>PASSWORD</label>
+                    <input placeholder="" type="text">
+
+                    <label>DATE OF BIRTH</label>
+                    <input placeholder="" type="text">
+
+                    <label>ADDRESS</label>
+                    <input placeholder="" type="text">
+
+                    <label>CREDIT CARD</label>
+                    <input placeholder="" type="text">
+
+                    <label>PHONE NUMBER</label>
+                    <input placeholder="" type="text">
+
+                   
+                    <div class="check">
+                        <label>
+                            <input id="check" type="checkbox" class="checkbox">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="23px">
+                                <path class="path-back"
+                                    d="M1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                                <path class="path-moving"
+                                    d="M24.192,3.813L11.818,16.188L1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                            </svg>
+                        </label>
+                        <h3>Keep me signed in</h3>
+                    </div>
+
+                    <input class="submit" value="SIGN IN" type="submit">
+                </div>
+
+                <hr>
+                <a href="https://www.grandvincent-marion.fr/" target="_blank">
+                    <h4>Forgot password?</h4>
+                </a>
+            </div>
+
+            <div class="enregistrer active-section">
+                <div class="contact-form">
+                    <label>USERNAME</label>
+                    <input placeholder="" type="text">
+
+                    <label>E-MAIL</label>
+                    <input placeholder="" type="text">
+
+                    <label>PASSWORD</label>
+                    <input placeholder="" type="text">
+
+                    <label>CONFIRM PASSWORD</label>
+                    <input placeholder="" type="text">
+
+                    <div class="check">
+                        <label>
+                            <input id="check" type="checkbox" class="checkbox">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="23px">
+                                <path class="path-back"
+                                    d="M1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                                <path class="path-moving"
+                                    d="M24.192,3.813L11.818,16.188L1.5,6.021V2.451C1.5,2.009,1.646,1.5,2.3,1.5h18.4c0.442,0,0.8,0.358,0.8,0.801v18.398c0,0.442-0.357,0.801-0.8,0.801H2.3c-0.442,0-0.8-0.358-0.8-0.801V6" />
+                            </svg>
+                        </label>
+                        <h3>I agree</h3>
+                    </div>
+
+                    <input class="submit" value="SIGN UP" type="submit">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+  
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+</body>
+
+</html>
