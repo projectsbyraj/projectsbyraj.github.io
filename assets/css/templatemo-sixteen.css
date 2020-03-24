@@ -96,6 +96,12 @@ a.filled-button:hover {
 	background-image: url(../images/about-heading.jpg);
 }
 
+
+.createride-heading {
+	background-image: url(../images/car-4.jfif);
+}
+
+
 .contact-heading {
 	background-image: url(../images/contact-heading.jpg);
 }
@@ -314,6 +320,22 @@ header .navbar {
 	position: relative;
 	text-align: center;
 	padding-top: 80px;
+}
+
+.banner-item-00 {
+	padding: 300px 0px;
+	background-image: url(../images/car-4.jfif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.banner-item-0 {
+	padding: 300px 0px;
+	background-image: url(../images/car-5.jfif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .banner-item-01 {
